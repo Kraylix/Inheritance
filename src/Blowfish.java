@@ -1,6 +1,6 @@
 public class Blowfish extends Fish implements AnimalBehavior, AnimalMove{
     private String Spikes;
-
+    private boolean isPoisonous;
     public Blowfish() {
         super();
         Spikes = "idk";

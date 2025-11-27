@@ -11,7 +11,7 @@ public class Mammal extends Animal implements AnimalMove, AnimalName{
         this.animName = animName;
     }
 
-    public Mammal(int age, String waiting) {
+    public Mammal(int age, String animName) {
         super(age);
         this.animName = animName;
     }

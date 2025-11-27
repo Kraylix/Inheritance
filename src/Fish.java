@@ -15,7 +15,6 @@ public class Fish extends Animal implements AnimalMove{
         this.isSwimming = isSwimming;
     }
 
-
     public void Defending() {System.out.println("Fish is defending himself");}
     @Override
     public void getVoice() { System.out.println("Fish sounds...");}
